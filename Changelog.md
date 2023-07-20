@@ -10,7 +10,7 @@
 
 ### Frontends
 
-- New [JSON input format for SIL](https://github.com/facebook/infer/pull/1361). This new format was contributed from [Infer#](https://github.com/microsoft/infersharp), whose C# frontend for Infer [emits SIL as JSON using this format](https://github.com/microsoft/infersharp/wiki/InferSharp:-A-Scalable-Code-Analytics-Tool-for-.NET).
+- New [JSON input format for SIL](https://github.com/facebook/infer/pull/1361). This new format was contributed from [Infer#](https://github.com/microsoft/infersharp), whose C# frontend for Infer [emits SIL as JSON using this format](https://github.com/microsoft/infersharp/wiki/InferSharp:-Aa-Scalable-Code-Analytics-Tool-for-.NET).
 
 ### Build System Integrations
 
