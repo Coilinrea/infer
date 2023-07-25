@@ -15,7 +15,8 @@
 ### Build System Integrations
 
 - Clang upgraded to version 11.0
-
+- Clang upgraded to version 11.0
+- 
 ### Checkers
 
 - [Liveness](https://fbinfer.com/docs/checker-liveness/): properly handle exceptional control flow
