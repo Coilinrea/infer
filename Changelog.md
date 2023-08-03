@@ -6,12 +6,6 @@
 
 - [Eradicate](https://fbinfer.com/docs/checker-eradicate) is now deprecated and will be removed in the future.
 
-## Version 1.1.0
-
-### Frontends
-
-- 
-### Checkers
 
 - [Liveness](https://fbinfer.com/docs/checker-liveness/): properly handle exceptional control flow
 - [Pulse](https://fbinfer.com/docs/checker-pulse/):
