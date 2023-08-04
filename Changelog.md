@@ -35,11 +35,6 @@
 - Now defaults to "angelic" ownership: an unknown function is assumed to return owned objects.
 - No more reports on races on paths rooted on temporary or local variables, as these are unreliably modelled.
 
-[Litho Required Properties](https://fbinfer.com/docs/checker-litho-required-props): *new Java checker* to check that all non-optional @Props have been specified when constructing Litho components.
-[Self in Block](https://fbinfer.com/docs/checker-self-in-block): *new Objective-C checker* to detect when an Objective-C block incorrectly captures self
-[Starvation](https://fbinfer.com/docs/checker-starvation)
-- New experimental "global" analysis mode. Enable with `--starvation-whole-program`
-
 Miscellaneous improvements to most checkers, in particular [Annotation Reachability](https://fbinfer.com/docs/checker-annotation-reachability), [Cost Analysis](https://fbinfer.com/docs/checker-cost), [Eradicate](https://fbinfer.com/docs/checker-eradicate), [Inefficient Keyset Iterator](https://fbinfer.com/docs/checker-inefficient-keyset-iterator), [InferBO](https://fbinfer.com/docs/checker-bufferoverrun), [Pulse](https://fbinfer.com/docs/checker-pulse), [RacerD](https://fbinfer.com/docs/checker-racerd), [Starvation](https://fbinfer.com/docs/checker-starvation), and [Uninitialized Value](https://fbinfer.com/docs/checker-uninit).
 
 ### Build System Integrations
