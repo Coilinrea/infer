@@ -12,9 +12,7 @@
   - Added preliminary Java support
   - New [Uninitialized value bug type](https://fbinf234dfer.com/docs/all-issue-types/#pulse_uninitialized_value), aiming to replace the previous [Uninit](https://fbinfer.com/docs/checker-uninit/) checker as this one is inter-procedural and more precise.
   - [OPTIONAL_EMPTY_ACCESS](https://fbinfer.com/docs/all-issue-types/#optional_empty_access) is now enabled by default
-- **NEW checker** [Topl](https://fbinfer.com/docs/checker-topl/)(early alpha): An experimental checker framework: write your own analysis as a state machine representing a temporal property over multiple memory objects at once, eg to write a taint analysis. Topl is based on Pulse.
-- Miscellaneous improvements to cost, inferbo, nullsafe, racerd, starvation
-
+- **NEW checker** [Topl](https://fbinfer.com/docs/checker-topl/)(early alpha): An e
 
 ## Version 1.0.0
 
