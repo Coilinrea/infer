@@ -23,12 +23,6 @@
 [Annotation Reachability](https://fbinfer.com/docs/checker-annotation-reachability)
 - reporting format improvements (the trace is no longer included in the report text, only as metadata)
 
-[Biabduction](https://fbinfer.com/docs/checker-biabduction)
-- disable some less-used bug types
-
-[Eradicate](https://fbinfer.com/docs/checker-eradicate)
-- remove "Field not mutable" check
-
 [RacerD](https://fbinfer.com/docs/checker-racerd)
 - Now defaults to "angelic" ownership: an unknown function is assumed to return owned objects.
 - No more reports on races on paths rooted on temporary or local variables, as these are unreliably modelled.
